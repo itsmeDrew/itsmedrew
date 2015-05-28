@@ -1,0 +1,41 @@
+{
+  "name": "igniter",
+  "private": true,
+  "scripts": {
+    "install": "bower install; gulp copy:bower;"
+  },
+  "dependencies": {
+    "body-parser": "^1.12.2",
+    "del": "^1.1.1",
+    "ejs": "^2.3.1",
+    "express": "^4.12.3",
+    "faker": "^2.1.2",
+    "gulp": "^3.8.11",
+    "gulp-angular-templatecache": "^1.6.0",
+    "gulp-autoprefixer": "^2.1.0",
+    "gulp-if": "^1.2.5",
+    "gulp-jshint": "^1.10.0",
+    "gulp-karma": "0.0.4",
+    "gulp-live-server": "0.0.13",
+    "gulp-ng-annotate": "^0.5.2",
+    "gulp-notify": "^2.2.0",
+    "gulp-protractor": "^1.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-ruby-sass": "^1.0.1",
+    "gulp-uglifyjs": "^0.6.1",
+    "gulp-util": "^3.0.4",
+    "jasmine-core": "^2.2.0",
+    "karma": "^0.12.31",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-jasmine": "^0.3.5",
+    "karma-ng-html2js-preprocessor": "^0.1.2",
+    "karma-requirejs": "^0.2.2",
+    "lodash": "^3.7.0",
+    "main-bower-files": "^2.6.2",
+    "protractor": "^2.0.0",
+    "request": "^2.55.0",
+    "requirejs": "^2.1.17",
+    "vinyl-ftp": "^0.4.0",
+    "yargs": "^3.7.0"
+  }
+}

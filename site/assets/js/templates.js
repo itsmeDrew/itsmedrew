@@ -1,0 +1,1 @@
+define(['angular'], function(angular) { 'use strict'; return angular.module("mfApp.Templates", []).run(["$templateCache", function($templateCache) {$templateCache.put("test.tpl.html","<div>\n  <h1>Something</h1>\n  <p>Something Else</p>\n  <footer>Something in the footer yep oh boy</footer>\n</div>");}]);});

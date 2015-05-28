@@ -1,0 +1,15 @@
+<%-
+  include('../components/layouts/master.html', {
+    placeholders: {
+      headerZone: [
+        include('../components/common/header.html', {
+          fields: {
+            pageTitle: 'Welcome to MF Igniter'
+          }
+        }),
+        include('../components/nav/main.html')
+      ],
+      footerZone: include('../components/common/footer.html')
+    }
+  })
+%>
