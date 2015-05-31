@@ -136,7 +136,7 @@ gulp.task('test:e2e', [ 'webdriverUpdate' ], function(cb) {
   gulp.src(config.paths.dev.tests + '/e2e/**/*.js')
     .pipe(protractor({
       configFile: 'protractor.conf.js',
-      args: [ '--baseUrl', 'http://localhost:5000' ]
+      args: [ '--baseUrl', 'http://localhost:6410' ]
     }))
     .on('error', notify.onError(function() {
       return 'JS Unit Test Error';

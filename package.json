@@ -37,5 +37,8 @@
     "requirejs": "^2.1.17",
     "vinyl-ftp": "^0.4.0",
     "yargs": "^3.7.0"
+  },
+  "devDependencies": {
+    "gulp-webserver": "^0.9.1"
   }
 }
